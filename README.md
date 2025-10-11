@@ -4,7 +4,7 @@
 - **Paulo**
 - **Rodrigo**  
 - **Felipe**
-- - **Andrew**
+- **Andrew**
 
 ---
 
