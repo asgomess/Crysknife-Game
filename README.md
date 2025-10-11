@@ -1,6 +1,10 @@
 # Crysknife Game Project
 
-### 👾 Group Name: **Crysknife**
+## 👥 Crysknife Team (4 Members)
+- **Paulo**
+- **Rodrigo**  
+- **Felipe**
+- - **Andrew**
 
 ---
 
@@ -28,9 +32,11 @@ Key focuses include:
 
 - **Language:** Java  
 - **IDE:** IntelliJ IDEA  
-- **Libraries:** SimpleGFX 
+- **Libraries:** SimpleGFX  
 - **Version Control:** Git & GitHub  
-- **Build Tool:** Maven?
+- **Build Tool:** Maven?  
+
 ---
 
 ## 📂 Repository Structure
+
