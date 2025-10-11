@@ -27,11 +27,10 @@ Key focuses include:
 ## 🛠️ Technologies & Tools
 
 - **Language:** Java  
-- **IDE:** IntelliJ IDEA / Eclipse  
-- **Libraries:** (e.g. LWJGL, JavaFX, or Swing — specify later)  
+- **IDE:** IntelliJ IDEA  
+- **Libraries:** SimpleGFX 
 - **Version Control:** Git & GitHub  
-- **Build Tool:** Gradle / Maven (to be defined)
-
+- **Build Tool:** Maven?
 ---
 
 ## 📂 Repository Structure
