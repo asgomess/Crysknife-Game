@@ -1,3 +1,4 @@
+mermaid```
     classDiagram
         %% ======================
         %% Core Game Structure
@@ -67,3 +68,4 @@
     Game "1" *-- "1" HUD : displays >
     Game "1" *-- "1" SoundManager : uses >
     Game "1" *-- "1" ImageLoader : loads >
+```
