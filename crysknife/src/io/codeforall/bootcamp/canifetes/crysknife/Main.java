@@ -1,4 +1,4 @@
-package io.codeforall.bootcamp.canifetes.crysknife;
+package io.codeforall.bootcamp.canifetes.crysknife.code;
 
 import org.academiadecodigo.simplegraphics.graphics.Rectangle;
 
