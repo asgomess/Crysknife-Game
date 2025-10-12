@@ -1,19 +1,19 @@
-mermaid```
-    classDiagram
-        %% ======================
-        %% Core Game Structure
-        %% ======================
-        class Game {
-            - int level
-            - int score
-            - int remainingTime
-            - boolean active
-            + startGame()
-            + update()
-            + checkCollisions()
-            + nextLevel()
-            + gameOver()
-        }
+```mermaid
+classDiagram
+    %% ======================
+    %% Core Game Structure
+    %% ======================
+    class Game {
+        - int level
+        - int score
+        - int remainingTime
+        - boolean active
+        + startGame()
+        + update()
+        + checkCollisions()
+        + nextLevel()
+        + gameOver()
+    }
 
     class Player {
         - int x
@@ -68,4 +68,3 @@ mermaid```
     Game "1" *-- "1" HUD : displays >
     Game "1" *-- "1" SoundManager : uses >
     Game "1" *-- "1" ImageLoader : loads >
-```
