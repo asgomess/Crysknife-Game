@@ -1,18 +1,18 @@
-classDiagram
-    %% ======================
-    %% Core Game Structure
-    %% ======================
-    class Game {
-        - int level
-        - int score
-        - int remainingTime
-        - boolean active
-        + startGame()
-        + update()
-        + checkCollisions()
-        + nextLevel()
-        + gameOver()
-    }
+    classDiagram
+        %% ======================
+        %% Core Game Structure
+        %% ======================
+        class Game {
+            - int level
+            - int score
+            - int remainingTime
+            - boolean active
+            + startGame()
+            + update()
+            + checkCollisions()
+            + nextLevel()
+            + gameOver()
+        }
 
     class Player {
         - int x
