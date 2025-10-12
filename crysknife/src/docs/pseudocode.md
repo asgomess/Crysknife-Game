@@ -1,18 +1,18 @@
-INICIAR JOGO
-    Mostrar tela Welcome
-    Esperar jogador iniciar
+    INICIAR JOGO
+        Mostrar tela Welcome
+        Esperar jogador iniciar
 
-NIVEL = 1
-TEMPO_RESTANTE = TEMPO_STANDARD
-PONTUACAO = 0
+    NIVEL = 1
+    TEMPO_RESTANTE = TEMPO_STANDARD
+    PONTUACAO = 0
 
-ENQUANTO jogo_ativo
-    Atualizar tela
-        Mostrar jogador
-        Mostrar vermes vivos
-        Mostrar pontuação (PONTUACAO)
-        Mostrar tempo restante (TEMPO_RESTANTE)
-        Mostrar nível atual (NIVEL)
+    ENQUANTO jogo_ativo
+        Atualizar tela
+            Mostrar jogador
+            Mostrar vermes vivos
+            Mostrar pontuação (PONTUACAO)
+            Mostrar tempo restante (TEMPO_RESTANTE)
+            Mostrar nível atual (NIVEL)
 
     LER input jogador
         Mover jogador conforme input
@@ -33,7 +33,7 @@ ENQUANTO jogo_ativo
 
     Diminuir TEMPO_RESTANTE
 
-SE TEMPO_RESTANTE == 0
-    Mostrar tela GameOver
-SENAO SE NIVEL > NIVEL_FINAL
-    Mostrar tela FinalGame
+    SE TEMPO_RESTANTE == 0
+        Mostrar tela GameOver
+    SENAO SE NIVEL > NIVEL_FINAL
+        Mostrar tela FinalGame
