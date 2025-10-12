@@ -1,13 +1,12 @@
-```mermaid
 classDiagram
     %% ======================
     %% Core Game Structure
     %% ======================
     class Game {
-        - int nivel
-        - int pontuacao
-        - int tempoRestante
-        - boolean ativo
+        - int level
+        - int score
+        - int remainingTime
+        - boolean active
         + startGame()
         + update()
         + checkCollisions()
@@ -45,9 +44,9 @@ classDiagram
     }
 
     class HUD {
-        + drawScore(int pontuacao)
-        + drawTime(int tempo)
-        + drawLevel(int nivel)
+        + drawScore(int score)
+        + drawTime(int remainingTime)
+        + drawLevel(int level)
     }
 
     class SoundManager {
@@ -68,5 +67,3 @@ classDiagram
     Game "1" *-- "1" HUD : displays >
     Game "1" *-- "1" SoundManager : uses >
     Game "1" *-- "1" ImageLoader : loads >
-
-
