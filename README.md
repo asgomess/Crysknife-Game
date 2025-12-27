@@ -11,7 +11,7 @@
 ## 🎯 Project Goal
 
 <p align="justify">
-We are <strong>Crysknife</strong>, a team of Codeforall students, trying to build our very first game using Java and the SimpleGFX library. The main objective is to <strong>reach a target score within a set time</strong> in a fast-paced arcade environment.
+We are <strong>Crysknife</strong>, a team of Codeforall students, trying to build our very first game using Java and the SimpleGFX library. The main objective is to <strong>reach a target score within a set time</strong> in a fast-paced arcade environment. The .jar file is available on https://paulof1010.itch.io/crysknife-game.
 </p>
 
 ---
